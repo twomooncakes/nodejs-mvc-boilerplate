@@ -1,0 +1,57 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #34313a;
+    margin: 0;
+}
+
+a {
+    color: whitesmoke;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(18, 27, 53);
+    color: whitesmoke;
+}
+
+header h2, nav {
+    margin: 0;
+    padding: 1rem 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0.5rem;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    text-align: center;
+}
+
+
+
